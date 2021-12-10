@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+  
+  <!--external css-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <style>
+    .attribution { font-size: 11px; text-align: center; margin-top: 50px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media(max-width:755.8px){
+        body{
+          padding-top: 20px;
+        }
+        .sedans{
+          border-radius: 20px 20px 0 0;
+        }
+        .luxury{
+          border-radius: 0 0 20px 20px;
+        }
+        button{
+          padding-bottom: 30px;
+        }
+    }
+  </style>
+</head>
+<body>
+ <div class="container w-50">
+  <div class="row text-left">
+
+     <div class="col-md-4 sedans"> <!--começo sedans-->
+       
+      <img src="images/icon-sedans.svg" class="mb-4 mt-5">
+
+       <h1 class="mb-4">Sedans</h1>
+
+        <p class="mb-5"> 
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+          or on your next road trip.
+        </p>
+
+        <button class="btn btn-light mt-5 mb-3 ml-3">Learn More</button>
+
+      </div>  <!--fim-->
+
+     <div class="col-md-4 suvs text-align-center"><!--Começo suvs-->
+     
+       <img src="images/icon-suvs.svg" class="mb-4 mt-5">
+
+       <h1 class="mb-4">SUVs</h1>
+
+       <p class="mb-5">
+         Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+         and off-road adventures.
+        </p>
+
+        <button class="btn btn-light mt-5 mb-3 ml-3">Learn More</button>
+
+      </div>  <!--end Suvs-->
+
+     <div class="col-md-4 luxury"><!--começo luxury-->
+
+      <img src="images/icon-luxury.svg" class="mb-4 mt-5">
+
+      <h1 class="mb-4">Luxury</h1>
+       
+       <p class="mb-5"> 
+           Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+           rental and arrive in style.
+       </p>
+
+       <button class="btn btn-light mt-5 mb-3 ml-3">Learn More</button>
+
+      </div> <!--end luxury-->
+
+  </div> <!--fim row-->
+
+</div><!--end container-->
+  
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Carlos Eduardo Freitas Amorim</a>.
+  </div>
+  
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
